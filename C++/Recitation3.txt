@@ -1,0 +1,11 @@
+Instructor: Ishita Srivastava
+Student: Gustav Solis
+
+Find the expected output of the given array after a given number of doubles:
+
+Array: A = {0, 2}
+Doubling: 1
+
+First Iteration:
+Before: A = {0, 2}   //A[2] max length is 2
+After: A = {0, 2}   //A[4]  max length is now 4

@@ -1,0 +1,41 @@
+Computer Memory
+  Two Types:
+    Stack: Managed by the OS as program is running. Local variables stored here
+
+    void f(){
+      int x
+    }
+    scope of x is in f
+    "when enter the function, x is added to the stack. When f completes, x is freed"
+
+    Stack space limited.
+
+    Heap: Large pool of free memory, larger then the stack
+    Variables created dynamically during runtime
+    Need pointers to access heap variables
+    Memory management done by developer.
+
+    Allocated memory stays allocated until explicitly de-allocated
+    Use new keyword to allocate
+    Use delete " to de-allocate
+    Use heap for large arrays and objects
+
+
+    Stack:
+      int x;
+      int *p = &x;
+
+    Heap:
+      int *x = new int  // memory for one int
+      float *y = new float // not pointing to existing allocated memory
+
+      int *x = new int[10}
+
+    Allocate:
+      int *x = new int
+      int *x2 = new int[10]
+
+    De-allocate:
+      delete x
+      delete []x2\
+      

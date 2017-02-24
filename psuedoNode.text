@@ -1,0 +1,32 @@
+//DELETION
+node* addNode(node *head, int key){
+    int counter = 1;
+    CREATE THE NODE
+    node *temp = new node;
+    temp -> key = key;
+    temp -> next = NULL;
+
+    if (head == NULL){
+        head = temp;
+    }
+
+    else {
+        node *temp = head;
+
+        while (temp -> next != NULL){
+            temp = temp -> next;
+            counter++;
+            if(counter == 3){
+              tempdel = temp -> next;
+              temp1 = temp -> next -> next;
+              break;
+            }
+        }
+
+        temp -> next = temp1;
+        delete tempdel;
+    }
+
+    RETURNS LIST
+    return head;
+}

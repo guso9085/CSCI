@@ -1,0 +1,54 @@
+Ideas for Hackathons
+
+An app of some sort that goes through all of your commits of your website, and shows the live feed of the html and css
+being changed, to give you some sort of where you began and where you ended. If done, this would be huge.
+
+Some sort of webApp that utilizes soundcloud api to make it better
+
+iPhone or Web App which has food menus of CU Boulder
+
+Some type of program that synthesizes some sort of random assortment of sound, in a rythmic pattern: Machine Learnign
+
+Web development as it relates to social causes:
+  -Example: Mapping sexual assaults on college campuses
+  -
+
+Speech recognition for practicing oral presentations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get good at Unity, build a fun game
+  -Platformer, medieval dark, dont starve esque art. Gotta collect some light source so it doesnt get too dark, and you fall to your demise.
+  wall chasing you.
+  -Binding of Isaac like game
+  -

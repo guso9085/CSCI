@@ -1,0 +1,48 @@
+bool IdenticalTrees(TreeNode *node1 TreeNode *node2, *a1, *a2){
+
+
+  int counter = 0;
+  //CHECK IF EMPTY TREES FIRST
+  if(node1 == NULL && node2 == NULL){
+    return True;
+  }
+
+  //CHECK IF SIZES ARE THE SAME, OTHERWISE RETURN FALSE
+
+  // IF THEY ARE BOTH NOT EMPTY
+  if(node1 != NULL && node2 != NULL && sizes are same){
+      if(node1 -> left != NULL){
+        IdenticalTrees(node1 -> left, node2 -> left)
+      }
+      a1[counter] = node1 -> key;
+      a2[counter] = node2 -> key;
+      counter++;
+      if(node1 -> right != NULL){
+        IdenticalTrees(node1 -> right, node2 -> right)
+      }
+  }
+  //OTHERWISE FALSE
+  else {
+    return False;
+  }
+
+  //ITERATE THROUGH ARRAY TO CHECK IF INDEX'S MATCH
+  int index = 0;
+  for (int j = 0; j <= counter; j++){
+    if (a1[j] == a2[j]){
+      index++;
+    }
+  }
+
+  //FINAL COMPARISON
+  if(counter == index){
+    return True;
+  }
+
+}
+
+//CHECK IF TREES ARE EMPTY
+//CHECK IF SIZES ARE SAME
+//IF SO, ITERATE THROUGH EACH TREE BY FOLLOWING LEFT SUBTREES TILL NULL
+//BUILD BOTH ARRAY'S WITH RECURSIVE IN-ORDER TRAVERSAL
+//THEN ITERATE THROUGH EACH ARRAY TO SEE IF ALL INDEX'S MATCH

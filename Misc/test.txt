@@ -1,0 +1,115 @@
+HEAD Q[0] = 5
+     Q[1] = 10
+     Q[2] = 6
+     Q[3] = 4
+     Q[4] = 5
+TAIL Q[5] =
+     Q[6] =
+
+Operations:
+• dequeue()
+Q[0] =
+HEAD Q[1] = 10
+Q[2] = 6
+Q[3] = 4
+Q[4] = 5
+TAIL Q[5] =
+Q[6] =
+• dequeue()
+Q[0] =
+Q[1] =
+HEAD Q[2] = 6
+Q[3] = 4
+Q[4] = 5
+TAIL Q[5] =
+Q[6] =
+• dequeue()
+Q[0] =
+Q[1] =
+Q[2] =
+HEAD Q[3] = 4
+Q[4] = 5
+TAIL Q[5] =
+Q[6] =
+• dequeue()
+Q[0] =
+Q[1] =
+Q[2] =
+Q[3] =
+HEAD Q[4] = 5
+TAIL Q[5] =
+Q[6] =
+• dequeue()
+Q[0] =
+Q[1] =
+Q[2] =
+Q[3] =
+Q[4] =
+HEAD-TAIL Q[5] =
+Q[6] =
+• enqueue(8)
+Q[0] =
+Q[1] =
+Q[2] =
+Q[3] =
+Q[4] =
+HEAD Q[5] = 8
+TAIL Q[6] =
+• enqueue(1)
+TAIL Q[0] =
+Q[1] =
+Q[2] =
+Q[3] =
+Q[4] =
+HEAD Q[5] = 8
+Q[6] = 1
+• enqueue(2)
+Q[0] = 2
+TAIL Q[1] =
+Q[2] =
+Q[3] =
+Q[4] =
+HEAD Q[5] =1
+Q[6] = 8
+• enqueue(5)
+Q[0] = 2
+Q[1] = 5
+TAIL Q[2] =
+Q[3] =
+Q[4] =
+HEAD Q[5] = 8
+Q[6] = 1
+• enqueue(7)
+Q[0] = 2
+Q[1] = 5
+Q[2] = 7
+TAIL Q[3] =
+Q[4] =
+HEAD Q[5] = 8
+Q[6] = 1
+• enqueue(13)
+Q[0] = 2
+Q[1] = 5
+Q[2] = 7
+Q[3] = 13
+TAIL Q[4] =
+HEAD Q[5] = 8
+Q[6] = 1
+• dequeue()
+Q[0] = 2
+Q[1] = 5
+Q[2] = 7
+Q[3] = 13
+TAIL Q[4] = 13
+Q[5] =
+HEAD Q[6] = 8
+• dequeue()
+HEAD Q[0] = 1
+Q[1] = 2
+Q[2] = 5
+Q[3] = 7
+TAIL Q[4] = 13
+Q[5] =
+Q[6] =
+
+[1, 2, 5, 7, 13, -, -]

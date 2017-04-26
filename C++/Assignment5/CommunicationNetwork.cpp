@@ -6,7 +6,7 @@
 using namespace std;
 
 //Name: Gustav Solis
-//Assignment 4
+//Assignment 5
 //TA : Ishita
 
 //Constructor
@@ -93,6 +93,12 @@ void CommunicationNetwork::transmitMsg(char *message){
 
 //PRINTS
 void CommunicationNetwork::printNetwork() {
+  if (head == NULL) {
+    cout << "===CURRENT PATH===" << endl;
+    cout << "NULL" << endl;
+    cout << "==================" << endl;
+    return;
+  }
   cout << "===CURRENT PATH===" << endl;
   cout << "NULL <- ";
   City *temp = head;
@@ -108,6 +114,8 @@ void CommunicationNetwork::printNetwork() {
   cout << "==================" << endl;
 }
 
+
+//DELETE CITY FUNCTION
 void CommunicationNetwork::deleteCity(string Delete){
   City *temp = head;
   while(temp != NULL){
@@ -144,6 +152,7 @@ void CommunicationNetwork::deleteCity(string Delete){
     }
 }
 
+//DELETE NETWORK FUNCTION
 void CommunicationNetwork::deleteNetwork(){
   City *temp = head;
   while(temp != NULL){
